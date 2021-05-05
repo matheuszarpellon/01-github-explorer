@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"], //funcionalidades para ajudar no html                          
+    "allowJs": true,          //permite ter arquivos tsx e jsx                  
+    "jsx": "react-jsx",     //para entender que estamos usando javascript                      
+    "noEmit": true,              //para nao emitir codigo                
+    "strict": true,                //para lidar com erros                 
+    "moduleResolution": "node", //import de arquivos json
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,                           
+    "forceConsistentCasingInFileNames": true        
+  },
+  "include": ["src"] //dizendo pro ts onde está o código
+}
